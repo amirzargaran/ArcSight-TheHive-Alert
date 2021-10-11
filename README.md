@@ -16,7 +16,7 @@ In this section, a brief explanation of how to use and function of this script i
 ## Pre-Requirements
 
 #### Knowledge
-For using this python script you must be completely proficient in the functionality of the ArcSight ESM Console Execution Command Resource and the structure of the CEF log format. 
+For using this python script you must be completely proficient in the functionality of the [ArcSight ESM](https://www.microfocus.com/en-us/cyberres/secops/arcsight-esm) Execution Command Resource and the structure of the CEF log format. 
 Also, you must be familiar with the functionalities of the [TheHive](https://github.com/TheHive-Project) and [TheHive4Py](https://github.com/TheHive-Project/TheHive4py).
 
 
