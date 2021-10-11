@@ -6,4 +6,7 @@ All actions taken on a SIEM to enhance its functionalities are in line with the 
 Here you can find a general and extensible script that can be used as an execution command in ArcSight ESM, you can send the results of the triggered correlation rules  to the TheHive platform in the form of an Alert.
 
 
+
+
+
 # Quick Start
