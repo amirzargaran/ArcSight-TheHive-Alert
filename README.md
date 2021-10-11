@@ -10,3 +10,7 @@ Here you can find a general and extensible script that can be used as an executi
 
 
 # Quick Start
+
+## Pre-Requirements
+
+For using this python script you must be completely proficient in the functionality of the ArcSight ESM Console Execution Command Resource and the structure of the CEF log format. So, for per defined Correlation Rule must 
