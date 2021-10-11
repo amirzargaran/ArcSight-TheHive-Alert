@@ -15,8 +15,25 @@ In this section, a brief explanation of how to use and function of this script i
 
 ## Pre-Requirements
 
-#### Knowledge
+#### Knowledge 
 For using this python script you must be completely proficient in the functionality of the [ArcSight ESM](https://www.microfocus.com/en-us/cyberres/secops/arcsight-esm) Execution Command Resource and the structure of the CEF log format. 
 Also, you must be familiar with the functionalities of the [TheHive](https://github.com/TheHive-Project) and [TheHive4Py](https://github.com/TheHive-Project/TheHive4py).
 
+#### Creating Custom Fields
+At the first, login to the ArcSight Console and Find the Rule resource that you want to add an action with the type of Command Execution. 
+Related to the all fields of correlation events, you must add the Custom Fields in the Thehive.
+All types of fields(string, boolean, integer, date) must be defined in the custom fields. 
 
+#### Configuration the script file
+Edit the sample-makealert.py file and put the IP address or Hostname of Thehive server. 
+Also, put the API key
+Insert all fields name of correlation events in the custom fields helper section.
+Save and exit. 
+Place the script file in the appropriate path on the ArcSight server. 
+
+#### Add command execution as action
+In the ArcSight Console, add an action as a command execution. 
+Add below command
+/usr/bin/python3 <Path_of_script_file>/makealert.py 
+Add all fields name as a variable type in the parameter section. 
+Save and Apply. 
